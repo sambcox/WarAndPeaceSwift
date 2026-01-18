@@ -52,12 +52,14 @@ class Turn {
 
     switch turnType {
     case .basic:
-      return player1.deck.cards.first!.rank > player2.deck.cards.first!.rank ? player1 : player2
+      if let player1Card = player1.deck.cards.first, let player2Card = player2.deck.cards.first {
+          return player1Card.rank > player2Card.rank ? player1 : player2
+      } else {
+          fatalError("Player deck is empty")
+      }
     case .war:
       return player1.deck.cards[2].rank > player2.deck.cards[2].rank ? player1 : player2
     case .mutuallyAssuredDestruction:
-      return nil
-    default:
       return nil
     }
   }
@@ -79,8 +81,6 @@ class Turn {
         _ = player1.deck.removeCard()
         _ = player2.deck.removeCard()
       }
-    default:
-      break
     }
   }
 

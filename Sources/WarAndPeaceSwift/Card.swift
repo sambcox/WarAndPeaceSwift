@@ -1,4 +1,4 @@
-enum Suit {
+enum Suit: CaseIterable {
     case hearts, diamonds, clubs, spades
 
     var symbol: String {
@@ -12,7 +12,7 @@ enum Suit {
 }
 
 
-enum Value: String {
+enum Value: String, CaseIterable {
     case two = "2", three = "3", four = "4"
     case five = "5", six = "6", seven = "7", eight = "8"
     case nine = "9", ten = "10"
