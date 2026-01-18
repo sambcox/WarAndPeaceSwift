@@ -1,7 +1,7 @@
 import XCTest
 @testable import WarAndPeaceSwift
 
-final class Cardtests: XCTestCase {
+final class CardTests: XCTestCase {
 
   func testCardProperties() {
     let card = Card(suit: .spades, value: .queen, rank: 12)

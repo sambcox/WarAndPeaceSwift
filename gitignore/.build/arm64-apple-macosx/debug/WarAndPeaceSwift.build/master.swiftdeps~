@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
-options: "887e1e1ccd233b8e36a9118b448cacdd"
-build_time: [1768694607, 770400000]
-inputs:
-  "/Users/samuelcox/personal_work/swift/war_and_peace_swift/Sources/WarAndPeaceSwift/Card.swift": [1768694554, 605719392]
-  "/Users/samuelcox/personal_work/swift/war_and_peace_swift/Sources/WarAndPeaceSwift/main.swift": !dirty [1768694606, 545346743]

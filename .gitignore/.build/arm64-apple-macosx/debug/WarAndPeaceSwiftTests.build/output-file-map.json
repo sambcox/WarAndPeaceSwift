@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/samuelcox/personal_work/swift/war_and_peace_swift/.build/arm64-apple-macosx/debug/WarAndPeaceSwiftTests.build/master.swiftdeps"
+  },
+  "/Users/samuelcox/personal_work/swift/war_and_peace_swift/Tests/WarAndPeaceSwiftTests/CardTests.swift": {
+    "dependencies": "/Users/samuelcox/personal_work/swift/war_and_peace_swift/.build/arm64-apple-macosx/debug/WarAndPeaceSwiftTests.build/CardTests.d",
+    "object": "/Users/samuelcox/personal_work/swift/war_and_peace_swift/.build/arm64-apple-macosx/debug/WarAndPeaceSwiftTests.build/CardTests.swift.o",
+    "swiftmodule": "/Users/samuelcox/personal_work/swift/war_and_peace_swift/.build/arm64-apple-macosx/debug/WarAndPeaceSwiftTests.build/CardTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelcox/personal_work/swift/war_and_peace_swift/.build/arm64-apple-macosx/debug/WarAndPeaceSwiftTests.build/CardTests.swiftdeps",
+    "diagnostics": "/Users/samuelcox/personal_work/swift/war_and_peace_swift/.build/arm64-apple-macosx/debug/WarAndPeaceSwiftTests.build/CardTests.dia"
+  },
+  "/Users/samuelcox/personal_work/swift/war_and_peace_swift/Tests/WarAndPeaceSwiftTests/DeckTests.swift": {
+    "dependencies": "/Users/samuelcox/personal_work/swift/war_and_peace_swift/.build/arm64-apple-macosx/debug/WarAndPeaceSwiftTests.build/DeckTests.d",
+    "object": "/Users/samuelcox/personal_work/swift/war_and_peace_swift/.build/arm64-apple-macosx/debug/WarAndPeaceSwiftTests.build/DeckTests.swift.o",
+    "swiftmodule": "/Users/samuelcox/personal_work/swift/war_and_peace_swift/.build/arm64-apple-macosx/debug/WarAndPeaceSwiftTests.build/DeckTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/samuelcox/personal_work/swift/war_and_peace_swift/.build/arm64-apple-macosx/debug/WarAndPeaceSwiftTests.build/DeckTests.swiftdeps",
+    "diagnostics": "/Users/samuelcox/personal_work/swift/war_and_peace_swift/.build/arm64-apple-macosx/debug/WarAndPeaceSwiftTests.build/DeckTests.dia"
+  }
+}
