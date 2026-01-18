@@ -1,5 +1,9 @@
-struct Deck {
+class Deck {
   var cards: [Card]
+
+  init (cards: [Card]) {
+    self.cards = cards
+  }
 
   func rankOfCardAt(index: Int) -> Int {
     return cards[index].rank
@@ -15,12 +19,12 @@ struct Deck {
     return (highRankingCount / totalCount) * 100
   }
 
-  mutating func removeCard() -> Card? {
+  func removeCard() -> Card? {
     guard !cards.isEmpty else { return nil }
     return cards.removeFirst()
   }
 
-  mutating func addCard(_ card: Card) {
+  func addCard(_ card: Card) {
     cards.append(card)
   }
 }
